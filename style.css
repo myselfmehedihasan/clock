@@ -45,7 +45,7 @@
       top: 50%;
       transform-origin: 100%;
       transform: rotate(90deg);
-      transition: all 0.05s;
+      transition: all 0.03s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
@@ -53,15 +53,18 @@
       height: 8px;
       background: rgb(233, 101, 101);
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 0 5px 5px 5px;
     }
 
     .min-hand {
       background: rgb(6, 207, 193);
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 0 5px 5px 5px;
     }
     .second-hand {
       background: rgb(201, 1, 215);
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 0 5px 5px 5px;
     }
 
     .digital-time {
